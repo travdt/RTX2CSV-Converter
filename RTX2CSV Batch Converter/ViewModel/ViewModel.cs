@@ -432,7 +432,7 @@ namespace RTX2CSV_Converter {
                     FileWriteProgress = value;
 
                     //increment file processing count
-                    if(value == 100)
+                    if(value == 100 && fileCount < convertConfig.RTXFiles.Length)
                     {
                         StatusText = string.Format("Processing file {0} of {1}", ++fileCount, convertConfig.RTXFiles.Length.ToString());
                     }

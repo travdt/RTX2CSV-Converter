@@ -15,14 +15,8 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1D6AEC7F18AD1626A93A37F0B985FDE4"
+        "MsmKey" = "8:_2743A7C1BCFD7339EF556ABF7C99A9D5"
         "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1D6AEC7F18AD1626A93A37F0B985FDE4"
-        "OwnerKey" = "8:_3D99EF164F8FAF814041C294100D6ABE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,24 +27,30 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_386AC554B3EB55CB52AFCF4EE5052C06"
-        "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3D99EF164F8FAF814041C294100D6ABE"
-        "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8BA1452D94D2937ABC1A6A190089D9AC"
         "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_D05A4B38DECA34ACD230EB1596C226C6"
+        "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D05A4B38DECA34ACD230EB1596C226C6"
+        "OwnerKey" = "8:_2743A7C1BCFD7339EF556ABF7C99A9D5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EE00812DC3732A238DA76E9E670AC2AA"
+        "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_2A3F5B42500B427C96317E128632F754"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,19 +58,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3D99EF164F8FAF814041C294100D6ABE"
+        "OwnerKey" = "8:_2743A7C1BCFD7339EF556ABF7C99A9D5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1D6AEC7F18AD1626A93A37F0B985FDE4"
+        "OwnerKey" = "8:_D05A4B38DECA34ACD230EB1596C226C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_386AC554B3EB55CB52AFCF4EE5052C06"
+        "OwnerKey" = "8:_EE00812DC3732A238DA76E9E670AC2AA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -174,76 +174,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1D6AEC7F18AD1626A93A37F0B985FDE4"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.7.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1D6AEC7F18AD1626A93A37F0B985FDE4"
-                    {
-                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_180896E738C0421691598A30530F4D7D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_386AC554B3EB55CB52AFCF4EE5052C06"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DotNetProjects.DataVisualization.Toolkit, Version=6.1.94.0, Culture=neutral, PublicKeyToken=79778c5f2eed289b, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_386AC554B3EB55CB52AFCF4EE5052C06"
-                    {
-                    "Name" = "8:DotNetProjects.DataVisualization.Toolkit.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DotNetProjects.DataVisualization.Toolkit.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_180896E738C0421691598A30530F4D7D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D99EF164F8FAF814041C294100D6ABE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2743A7C1BCFD7339EF556ABF7C99A9D5"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack.Shell, Version=1.1.7.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3D99EF164F8FAF814041C294100D6ABE"
+                    "_2743A7C1BCFD7339EF556ABF7C99A9D5"
                     {
                     "Name" = "8:Microsoft.WindowsAPICodePack.Shell.dll"
                     "Attributes" = "3:512"
@@ -295,6 +233,68 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D05A4B38DECA34ACD230EB1596C226C6"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAPICodePack, Version=1.1.7.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_D05A4B38DECA34ACD230EB1596C226C6"
+                    {
+                    "Name" = "8:Microsoft.WindowsAPICodePack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsAPICodePack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_180896E738C0421691598A30530F4D7D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EE00812DC3732A238DA76E9E670AC2AA"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DotNetProjects.DataVisualization.Toolkit, Version=6.1.94.0, Culture=neutral, PublicKeyToken=79778c5f2eed289b, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EE00812DC3732A238DA76E9E670AC2AA"
+                    {
+                    "Name" = "8:DotNetProjects.DataVisualization.Toolkit.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DotNetProjects.DataVisualization.Toolkit.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_180896E738C0421691598A30530F4D7D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -365,15 +365,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RTX2CSV Converter"
-        "ProductCode" = "8:{BAD3626F-6D99-497E-9A43-8DA2755170BF}"
-        "PackageCode" = "8:{37790231-D0CD-409E-8A24-9BA4B2592799}"
+        "ProductCode" = "8:{1C687C73-785D-4CCD-B30C-B0577FF7B159}"
+        "PackageCode" = "8:{3E3071C6-04EC-4A4B-AE34-09887F2C89B7}"
         "UpgradeCode" = "8:{84059B74-7293-41B3-AD33-E31DFD94DCF4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.2"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:FMBO"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -915,7 +915,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2A3F5B42500B427C96317E128632F754"
             {
-            "SourcePath" = "8:..\\RTX2CSV Batch Converter\\obj\\Release\\RTX2CSV Batch Converter.exe"
+            "SourcePath" = "8:..\\RTX2CSV Batch Converter\\obj\\Release\\RTX2CSV Converter.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_180896E738C0421691598A30530F4D7D"
