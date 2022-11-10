@@ -72,8 +72,8 @@
     <Compile Include="View\Validation.cs" />
     <Compile Include="Model\RTXData.cs" />
     <Compile Include="ViewModel\ErrorNotifier.cs" />
-    <Compile Include="ViewModel\CSVOutput.cs" />
-    <Compile Include="ViewModel\RTXFileProcessor.cs" />
+    <Compile Include="ServiceClasses\CSVOutput.cs" />
+    <Compile Include="ServiceClasses\RTXFileProcessor.cs" />
     <Compile Include="ViewModel\CommandBase.cs" />
     <Compile Include="ViewModel\PresenterBase.cs" />
     <Compile Include="ViewModel\ViewModel.cs" />
