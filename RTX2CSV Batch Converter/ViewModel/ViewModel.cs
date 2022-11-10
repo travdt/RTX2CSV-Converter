@@ -416,15 +416,26 @@ namespace RTX2CSV_Converter {
                 Stopwatch sw = Stopwatch.StartNew();
                 FileConversionProgress = 0;
                 FileWriteProgress = 0;
+                int fileCount = 1;
 
+                StatusText = string.Format("Processing file {0} of {1}", fileCount, convertConfig.RTXFiles.Length.ToString());
+
+                //top bar
                 Progress<int> processProgress = new Progress<int>(value =>
                 {
                     FileConversionProgress = value;
                 });
 
+                //bottom bar
                 Progress<int> writeProgress = new Progress<int>(value =>
                 {
                     FileWriteProgress = value;
+
+                    //increment file processing count
+                    if(value == 100)
+                    {
+                        StatusText = string.Format("Processing file {0} of {1}", ++fileCount, convertConfig.RTXFiles.Length.ToString());
+                    }
                 });
 
                 List<RTXData> rtxDatas = await Task.Run(() => ProcessFiles(convertConfig, processProgress));
@@ -433,7 +444,7 @@ namespace RTX2CSV_Converter {
 
                 sw.Stop();
 
-                if (!convertConfig.IsFolderConvert)
+                if (convertConfig.RTXFiles.Length == 1)
                 {
                     StatusText = string.Format("Done! {0} file converted in {1:0.000}s.", rtxDatas.Count, (float)(sw.ElapsedMilliseconds) / 1000);
                 }

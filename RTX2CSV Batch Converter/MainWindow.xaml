@@ -17,7 +17,7 @@
         <TextBox IsReadOnly="True" Text="{Binding OutputPath}" HorizontalAlignment="Left" Height="30" Margin="17,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
         <CheckBox IsChecked="{Binding WriteToInputPath}" Content="Output to input path" HorizontalAlignment="Left" Height="17" Margin="17,221,0,0" VerticalAlignment="Top" Width="200" ToolTip="Output file(s) are written to the same folder as the input files"/>
         <Button Command="{Binding StartConversion_Command}" Content="Convert" HorizontalAlignment="Left" Height="30" Margin="17,333,0,0" VerticalAlignment="Top" Width="103"/>
-        <TextBlock HorizontalAlignment="Left" Height="14" Margin="125,363,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="{Binding StatusText}" VerticalAlignment="Top" Width="400"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="125,363,0,0" TextWrapping="Wrap" TextAlignment="Center" Text="{Binding StatusText}" VerticalAlignment="Top" Width="400"/>
         <Label Content="RTX to CSV file converter" HorizontalAlignment="Left" Height="31" Margin="17,10,0,0" VerticalAlignment="Top" Width="486" FontWeight="Bold" FontSize="18"/>
         <RadioButton Command="{Binding SelectFiles_Command}" Content="File(s)" GroupName="Fileselect" IsChecked="True" HorizontalAlignment="Left" Height="19" Margin="17,58,0,0" VerticalAlignment="Top" Width="100"/>
         <RadioButton Command="{Binding SelectFolder_Command}" Content="Folder" GroupName="Fileselect" HorizontalAlignment="Left" Height="19" Margin="122,58,0,0" VerticalAlignment="Top" Width="100"/>

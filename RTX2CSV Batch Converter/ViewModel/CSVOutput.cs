@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Windows.Shapes;
 
 namespace RTX2CSV_Converter
 {
@@ -37,6 +38,8 @@ namespace RTX2CSV_Converter
             int reportCounter = 0;
             int progressPercent = 0;
 
+            StringBuilder sb = new StringBuilder();
+
             try
             {
                 using (StreamWriter outputFile = new StreamWriter(outputFilePath))
@@ -70,11 +73,14 @@ namespace RTX2CSV_Converter
 
                         if (reportCounter == reportCompare)
                         {
+                            outputFile.Write(sb.ToString());
+                            sb.Clear();
                             progress.Report(++progressPercent);
                             reportCounter = 0;
                         }
                     }
 
+                    outputFile.Write(sb.ToString());
                     outputFile.Close();
                     return 1;
                 }
